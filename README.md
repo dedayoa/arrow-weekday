@@ -1,10 +1,10 @@
 # arrow-weekday
-Utilities for work days in Arrow. Inspired by arrowObj-business.
+Utilities for work days in Arrow. Inspired by moment-business.
 
 Utilities for working with week days and weekend days in Arrow. It assumes a Western
 workweek, in which weekends are Saturday and Sunday.
 
-*This module was inspired by arrowObj-business; https://github.com/jmeas/arrowObj-business/*
+*This module was inspired by arrowObj-business; https://github.com/jmeas/moment-business/*
 
 ### Motivation
 
