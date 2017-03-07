@@ -1,5 +1,6 @@
 # Always prefer setuptools over distutils
-from setuptools import setup, find_packages
+from setuptools import find_packages
+
 # To use a consistent encoding
 from codecs import open
 from os import path
@@ -11,7 +12,7 @@ except ImportError:
 
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description from the README file
+
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
@@ -25,7 +26,7 @@ setup(
     author='Dayo Ayeni',
     author_email="dedayoa@gmail.com",
     license='MIT',
-    #packages=['arrow_weekday'],
+    packages=['arrow_weekday'],
     zip_safe=False,
     install_requires=[
         'arrow'
