@@ -4,7 +4,7 @@ Utilities for work days in Arrow. Inspired by moment-business.
 Utilities for working with week days and weekend days in Arrow. It assumes a Western
 workweek, in which weekends are Saturday and Sunday.
 
-*This module was inspired by arrowObj-business; https://github.com/jmeas/moment-business/*
+*This module was inspired by moment-business; https://github.com/jmeas/moment-business/*
 
 ### Motivation
 
@@ -14,7 +14,7 @@ This library supplies you with tools to work with/manipulate weekdays and weeken
 
 ### Getting Started
 
-Install this library through npm.
+Install using pip.
 
 ```py
 pip install git+https://github.com/dedayoa/arrow-weekday
@@ -51,17 +51,17 @@ If `endArrow` comes before `startArrow`, then this function will return a negati
 
 ##### `weekendDays( startArrow, endArrow )`
 
-Calculate the number of weekend days between the arrowObj and `otherArrow`. Weekend days are Saturday and Sunday.
+Calculate the number of weekend days between the `startArrow` and `endArrow`. Weekend days are Saturday and Sunday.
 
 If `endArrow` comes before `startArrow`, then this function will return a negative value.
 
 ##### `addWeekDays( arrowObj, amount )`
 
-Add week days to a arrowObj, modifying the original arrowObj. Returns the arrowObj.
+Add week days to a arrowObj, modifying the original arrowObj. Returns an arrowObj.
 
 ##### `subtractWeekDays( arrowObj, amount )`
 
-Subtract week days from the arrowObj, modifying the original arrowObj. Returns the arrowObj.
+Subtract week days from the arrowObj, modifying the original arrowObj. Returns an arrowObj.
 
 ##### `isWeekDay( arrowObj )`
 
