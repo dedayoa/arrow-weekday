@@ -102,12 +102,15 @@ class ArrowWeekday(object):
 
         res = arrowObj.replace(days = sign * days)
         return res
-
+    
+    @classmethod
     def subtractWeekDays(self, arrowObj, amount):
         return self.addWeekDays(arrowObj, -amount)
-
+    
+    @classmethod
     def isWeekDay(self, arrowObj):
         return arrowObj.isoweekday() < 6
-
+    
+    @classmethod
     def isWeekendDay(self, arrowObj):
         return arrowObj.isoweekday() > 5
