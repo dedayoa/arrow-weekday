@@ -25,7 +25,7 @@ setup(
     author='Dayo Ayeni',
     author_email="dedayoa@gmail.com",
     license='MIT',
-    packages=['arrow_weekday'],
+    #packages=['arrow_weekday'],
     zip_safe=False,
     install_requires=[
         'arrow'
